@@ -52,7 +52,7 @@ To view or run the projects locally:
 
 Click below to open each project:
 
-- [Key Code Generator](./KeycodeGenerator/)
+- [Key Code Generator](./Keycode-Generator/)
 - [Countdown](./Countdown/)
 - [Dark Theme Switcher](./Dark-Theme-Switcher/)
 - [Figma Design](./Figma-Design/)
