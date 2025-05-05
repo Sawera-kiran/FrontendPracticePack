@@ -42,3 +42,24 @@ To view or run the projects locally:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Sawera-kiran/FrontendPracticePack.git
+
+## 🗂 Project Index
+
+Click below to open each project:
+
+- [Key Code Generator](./KeyCodeGenerator/)
+- [Countdown](./Countdown/)
+- [Dark Theme](./Dark-Theme/)
+- [Figma Design](./Figma-Design/)
+- [Numbers Facts](./Numbers-Facts/)
+- [Joke Generator](./Joke-Generator/)
+- [ReadMore Button](./ReadMore-Button/)
+- [Photo-Gallery](./Photo-Gallery/)
+- [Custom Cursor](./Cursor/)
+
+
+
+
+
+
+📌 Replace folder and file names with your actual ones.
