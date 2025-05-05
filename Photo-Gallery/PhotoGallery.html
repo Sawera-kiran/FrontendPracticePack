@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="PhotoGallery.css">
+    <title>Photo Gallery</title>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+
+            <div class="header">
+                <h1>
+                    <span class="photo">Photo</span><span class="gallery-text">Gallery</span>
+                </h1>
+
+                <form id="search-form">
+                    <input type="text" placeholder="Search here" class="search-input">
+                    <button class="search-button" type="submit">
+                     <ion-icon name="search-outline"></ion-icon>
+                    </button>
+                    <div class="error-message">Please enter a valid item</div>
+                </form>
+            </div>
+            <div class="gallery">
+            </div>
+            <div class="loading-text">Loading...</div>
+            <a class="load-more" data-img="curated" >Load More</a>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="PhotoGallery.js"></script>
+</body>
+
+</html>
