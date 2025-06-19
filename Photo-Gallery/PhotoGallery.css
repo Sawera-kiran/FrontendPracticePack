@@ -7,11 +7,11 @@
 img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit:cover;
 }
 
 html {
-  font-family: sans-serif;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 10px;
   --custom-color: #ff6c00;
 }
@@ -51,7 +51,7 @@ section {
   font-size: 40px;
   font-weight: 900;
   letter-spacing: -2px;
-  /* color: var(--custom-color); */
+  cursor: pointer;
 }
 
 .photo {
@@ -94,8 +94,6 @@ form ion-icon {
   color: var(--custom-color);
   font-size: 25px;
   transform: translateY(-30%);
-
-
 }
 
 .search-button {
@@ -209,9 +207,7 @@ form ion-icon {
   display: block;
 }
 
-
-
-@media only screen and (min-width: 900px) {
+@media (min-width: 900px) {
   .container {
     max-width: 1160px;
     padding: 100px;

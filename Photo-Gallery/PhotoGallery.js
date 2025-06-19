@@ -25,11 +25,11 @@ class PhotoGallery {
       this.galleryDIv.innerHTML = '';
       this.getImg(this.pageIndex);
     })
-  }
+  } 
   async getImg(index) {
     this.loadMore.setAttribute('data-img', 'curated');
     this.showLoading();
-    const baseURL = `https://api.pexels.com/v1/curated?page=${index}&per_page=12`;
+    const baseURL = `https://api.pexels.com/v1/curated?page=${index}&per_page=9`;
     const data = await this.fetchImages(baseURL);
     this.GenerateHTML(data.photos)
     this.hideLoading();
@@ -88,7 +88,7 @@ class PhotoGallery {
     this.searchValueGlobal = searchValue;
     this.loadMore.setAttribute('data-img', 'search');
     this.showLoading();
-    const baseURL = `https://api.pexels.com/v1/search?query=${searchValue}&page=1&per_page=12`;
+    const baseURL = `https://api.pexels.com/v1/search?query=${searchValue}&page=1&per_page=9`;
     const data = await this.fetchImages(baseURL);
 
     if (data.photos.length === 0) {
@@ -107,9 +107,9 @@ class PhotoGallery {
 
   async getMoreSearchedImages(index) {
     this.showLoading();
-    const baseURL = `https://api.pexels.com/v1/search?query=${this.searchValueGlobal}&page=${index}&per_page=12`
+    const baseURL = `https://api.pexels.com/v1/search?query=${this.searchValueGlobal}&page=${index}&per_page=9`
     const data = await this.fetchImages(baseURL);
-    console.log(data)
+
     if (data.photos.length === 0) {
       this.showLoading('No results found.');
     } else {
