@@ -1,59 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            padding: 2rem;
-            background: #f3f3f3;
-            color: #333;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-        h1 {
-            margin-bottom: 1rem;
-        }
+    body {
+      font-family: Arial, sans-serif;
+      background: #212121; 
+      color: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      min-height: 100vh;
+    }
 
-        ul {
-            list-style: none;
-            padding: 0;
-        }
+    .container {
+      text-align: center;
+      max-width: 720px;
+      width: 100%;
+      background: #1e1e1e;
+      border-radius: 8px;
+      padding: 2rem;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    }
 
-        li {
-            margin: 0.75rem 0;
-        }
+    h1 {
+      margin-bottom: 1rem;
+      font-size: 2rem;
+    }
 
-        a {
-            text-decoration: none;
-            color: #0366d6;
-        }
+    ul {
+      list-style-type: disc;           
+      padding-left: 1.5rem;           
+      margin-top: 1rem;
+      text-align: left;               
+    }
 
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
-    <title>Frontend Practice Pack</title>
+    li {
+      margin: 0.5rem 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: #ff6000;
+      font-size: 1.1rem;
+      transition: color 0.2s;
+    }
+
+    a:hover {
+      color: #ff6000;
+    }
+
+    p {
+      margin-top: 1.5rem;
+      opacity: 0.8;
+    }
+
+    
+    @media (max-width: 480px) {
+      .container {
+        padding: 1.5rem;
+      }
+      h1 {
+        font-size: 1.6rem;
+      }
+      a {
+        font-size: 1rem;
+      }
+    }
+  </style>
+  <title>Frontend Practice Pack</title>
 </head>
 
 <body>
 
-    <h1>🎨 My Frontend Practice Projects</h1>
+  <div class="container">
+    <h1> My Frontend Practice Projects</h1>
     <ul>
-        <li><a href="./Countdown/">CountDown </a></li>
-        <li><a href="./Custom-Cursor/">Custom Cursor App</a></li>
-        <li><a href="./Dark-Theme-Switcher/">Dark Theme Switcher App</a></li>
-        <li><a href="./Figma-Design/">Figma Design App</a></li>
-        <li><a href="./Joke-Generator/">Joke Generator App</a></li>
-        <li><a href="./Keycode-Generator/">Keycode Generator App</a></li>
-        <li><a href="./Numbers-Facts/">Numbers Facts App</a></li>
-        <li><a href="./Photo-Gallery/">Photo Gallery App</a></li>
-        <li><a href="./ReadMore-Button/">ReadMore Button App</a></li>
-
-
+      <li><a href="./Countdown/"  target="_blank">CountDown</a></li>
+      <li><a href="./Custom-Cursor/"  target="_blank">Custom Cursor App</a></li>
+      <li><a href="./Dark-Theme-Switcher/"  target="_blank">Dark Theme Switcher App</a></li>
+      <li><a href="./Figma-Design/"  target="_blank">Figma Design App</a></li>
+      <li><a href="./Joke-Generator/"  target="_blank">Joke Generator App</a></li>
+      <li><a href="./Keycode-Generator/"  target="_blank">Keycode Generator App</a></li>
+      <li><a href="./Numbers-Facts/"  target="_blank">Numbers Facts App</a></li>
+      <li><a href="./Photo-Gallery/"  target="_blank">Photo Gallery App</a></li>
+      <li><a href="./ReadMore-Button/"  target="_blank">ReadMore Button App</a></li>
     </ul>
-    <p>Click a link above to open a live preview of each project.</p>
-</body>
+    <p>Click a link above to open a live Demo of each project.</p>
+  </div>
 
+</body>
 </html>
