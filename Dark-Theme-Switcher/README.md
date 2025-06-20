@@ -1,40 +1,43 @@
-🌙 Dark Theme Switcher
+# 🌙 Dark Theme Switcher
 
-A simple but elegantly styled toggle to switch between light and dark modes, inspired by a YouTube tutorial.
+A simple and effective dark/light theme toggle using JavaScript and CSS.
 
+**🎥 Tutorial Source:**  
+[Watch on YouTube](https://youtu.be/D1yg4T37qYo?si=sw8Ma4myZ4szEryK)
 
-For Live Demo click given link 👇
-
+**🌐 For Live Demo click given link 👇**  
 https://sawera-kiran.github.io/FrontendPracticePack/Dark-Theme-Switcher/
 
+---
 
+## ✨ Features
 
-🎥 Tutorial Source
+- Toggle between light and dark modes.
+- Theme change affects background and text colors dynamically.
+- Smooth transition effect between themes.
 
-Built following this video tutorial:  
-https://youtu.be/D1yg4T37qYo
+---
 
+## 📘 My Work
 
-🛠 Features Implemented
-  - A toggle switch that alternates between light and dark themes.
-  - Theme preference is **persisted using `localStorage`**, so the user's choice is retained after reloads.
+- Followed the tutorial and wrote code manually.
+- Fully understood each part of the code by researching all properties, methods, and attributes.
+- i researched and understand all the properties, methods and attributes used in the original tutorial
+Create thorough documentation explaining how each part of the code works you can access the file in this project folder along other files
 
+---
 
-While I didn’t add new functionality in this one , I thoroughly researched and documented every property, method, and attribute used in the code 🧠.
-you can access this file in this project folder along other files
+## 🛠 Tech Stack
 
+- HTML5  
+- CSS3 (custom properties, transitions)  
+- JavaScript (DOM manipulation)
 
-🧠 How It Works
+---
 
-1. Click the toggle to switch themes.
-2. CSS variables are updated to change colors across the page.
-3. User preference is saved via `localStorage` and applied on future visits.
-
-
-
-⚙️ Run Locally
+## ⚙️ Run Locally
 
 ```bash
 git clone https://github.com/sawera-kiran/FrontendPracticePack.git
-cd FrontendPracticePack/Dark-Theme-Switcher
+cd FrontendPracticePack/Dark-Theme-Switcher/
 open index.html
