@@ -1,63 +1,38 @@
-⏳ CountDown
+# ⏳ Countdown Timer
 
+A simple and elegant countdown timer project built using HTML, CSS, and JavaScript.
 
-A simple JavaScript countdown timer built as part of my front‑end practice series.
+**🎥 Tutorial Video:**  
+https://youtu.be/_a4XCarxwr8?si=jaytk4ANJOwi_lAd
 
-For Live Demo click given link  👇 
+**🌐For Live Demo click given link 👇**  
 https://sawera-kiran.github.io/FrontendPracticePack/Countdown/
 
+---
 
+## 📌 Project Description
 
-🧠 What I Learned
+This project shows a real-time countdown timer that displays the remaining time until it reaches 0.
 
-Though I didn't add new functionality to this project, I took time to:
-- Research and understand all the properties, methods and attributes used in the original tutorial
-- Create thorough documentation explaining how each part of the code works
-you can access the file in this project folder along other files 
+---
 
+## 📚 Research & Learning
 
+i researched and understand all the properties, methods and attributes used in the original tutorial Create thorough documentation explaining how each part of the code works you can access the file in this project folder along other files
 
-Features (from tutorial)
+---
 
-- Starts a countdown from 10 seconds
-- Displays seconds remaining
+## 🛠 Tech Stack
 
+- HTML5  
+- CSS3  
+- JavaScript 
 
+---
 
-📄 Documentation
-
-I've documented:
-- `Date()` usage and related methods (`getTime()`, etc.)
-- `setInterval()` for repeating updates
-- DOM methods like `querySelector()` and `innerText`
-
-
- ⚙️ How to Use
-
-1. Open the link above to use the live countdown.
-2. No interaction needed—just observe it counting down.
-
-
-
- 🛠️ Tech Stack
-
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-
-
-
-📺 Original Tutorial
-
-Based on this YouTube tutorial:  
-
-https://youtu.be/_a4XCarxwr8?si=Ku3vr5Kwc4C0aCuG
-
-## ⚙️ Run Locally
+## ⚙️ How to Run Locally
 
 ```bash
-Clone the repository
-git clone https://github.com/sawera‑kiran/FrontendPracticePack.git
-cd FrontendPracticePack/Countdown/
+git clone https://github.com/Sawera-kiran/FrontendPracticePack.git
+cd FrontendPracticePack/Countdown
 open index.html
-
